@@ -25,7 +25,7 @@ export class Home extends Component {
   componentWillUnmount() {}
 
   loadPosts = async () => {
-    const { page, postsPerPage } = this.state;
+    const { postsPerPage } = this.state;
 
     const photosAndPosts = await loadPosts();
     this.setState({

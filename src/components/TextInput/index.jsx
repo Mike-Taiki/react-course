@@ -15,5 +15,5 @@ export const TextInput = ({ searchValue, actionFn }) => {
 
 TextInput.propTypes = {
   searchValue: P.string.isRequired,
-  handleChange: P.func.isRequired,
+  actionFn: P.func.isRequired,
 };
